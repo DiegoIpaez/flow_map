@@ -1,0 +1,38 @@
+.textUpdaterNode {
+  border: 1px solid #1a192b;
+  padding: 5px;
+  border-radius: 3px;
+  background: white;
+  width: 6.84rem;
+  padding: 0.53rem 1.2rem;
+}
+
+.textUpdaterNode span {
+  text-align: center;
+  color: #222;
+  font-size: 12px;
+}
+
+.textUpdaterNode button {
+  position: absolute;
+  top: -0.7rem;
+  right: -0.5rem;
+  border: none;
+  background-color: #f6f6f6;
+  border-radius: 1rem;
+  padding: 0.2rem 0.3rem;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.textUpdaterNode > form > input {
+  font-size: 12px;
+  padding: 5px;
+  border: none;
+  outline: none;
+  width: 6.2rem;
+}
+
+.textUpdaterNode > form > input:focus {
+  border-bottom: 1px solid #1890d6;
+}

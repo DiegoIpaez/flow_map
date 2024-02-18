@@ -2,7 +2,9 @@
   --background-color: #f6f6f6;
   --foreground-color: #003cff;
   --primary-text-color: #0a0a0a;
-  --secondary-text-color: #0a0a0a ;
+  --secondary-text-color: #0a0a0a;
+  --btn-bg: #f0eb9d;
+  --btn-hover-bg: #eee88f;
   --toggle-bg: #f0eb9d;
   --toggle-fg: #ffd000;
   --shadow-bg: rgba(0, 0, 0, 0.1);
@@ -13,6 +15,8 @@
   --foreground-color: #567aff;
   --primary-text-color: #f6f6f6;
   --secondary-text-color: #ffffff;
+  --btn-bg: #283452;
+  --btn-hover-bg: #1f273d;
   --toggle-bg: #283452;
   --toggle-fg: #00a6ff;
   --shadow-bg: rgba(117, 117, 117, 0.062);
@@ -33,4 +37,31 @@ body,
   width: 100%;
   height: 100%;
   background-color: var(--background-color);
+}
+
+.text {
+  color: var(--primary-text-color);
+}
+
+.btn-small {
+  border: none;
+  border-radius: 7px;
+  background-color: var(--btn-bg);
+  color: var(--primary-text-color);
+  cursor: pointer;
+  margin: 0px 0.2rem;
+  padding: 0.2rem 0.5rem;
+}
+.btn-small:hover {
+  background-color: var(--btn-hover-bg);
+}
+
+.mb-0 {
+  margin: 0;
+}
+.me-0 {
+  margin-right: 0px;
+}
+.ms-0 {
+  margin-left: 0px;
 }
